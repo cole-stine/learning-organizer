@@ -1,16 +1,12 @@
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+body {
+  background-color: rgb(39, 35, 35);
 }
 
-.bounce-letter {
-  display: inline-block;
-  animation: bounce 1.5s ease infinite;
+root {
+  background-color: gray;
+}
+
+TextInputWithButton {
+  display: flex;
+  flex-direction: row;
 }

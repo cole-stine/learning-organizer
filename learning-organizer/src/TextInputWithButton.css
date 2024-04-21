@@ -1,7 +1,8 @@
 .text-input-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    margin: 15px;
   }
   
   input {
@@ -18,4 +19,8 @@
     color: red;
     font-size: 14px;
     margin-top: 5px;
+  }
+
+  .add-button {
+    color: blue;
   }

@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import './TextInputWithButton.css'; // Make sure to have a corresponding CSS file for styling
+import Button from 'react-bootstrap/Button';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function TextInputWithButton() {
   const [inputValue, setInputValue] = useState('');
@@ -29,7 +34,8 @@ function TextInputWithButton() {
         className={error ? 'error' : ''}
         placeholder="Enter text..."
       />
-      <button onClick={handleButtonClick}>Add to List</button>
+      {/* <button className="add-button" onClick={handleButtonClick}>Add to List</button> */}
+      <Button variant="primary" onClick={handleButtonClick}>Add To List</Button>{''}
       {error && <p className="error-message">Please enter some text</p>}
       <ul>
         {listItems.map((item, index) => (
