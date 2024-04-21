@@ -15,6 +15,7 @@ function App() {
     i: 'fixedItem',
     x: 0,
     y: 0,
+    w: 12,
     h: 5,
     static: true
   };
