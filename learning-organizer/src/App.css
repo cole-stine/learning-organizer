@@ -1,12 +1,8 @@
-body {
-  background-color: rgb(39, 35, 35);
-}
-
-root {
-  background-color: gray;
-}
-
-TextInputWithButton {
+.App {
+  text-align: center;
+  background-color: #555;
+  height: 100vh;
+  justify-content: space-between;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }

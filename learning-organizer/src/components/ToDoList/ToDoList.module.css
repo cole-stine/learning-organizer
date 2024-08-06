@@ -1,0 +1,48 @@
+.todoList {
+    margin: 0 45px;
+
+    h1 {
+        margin: 0;
+        color: #ffffff;
+        padding: 20px 0;
+    }
+
+    .inputContainer {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        padding: 10px 0;
+
+        button {
+            background-color: #555555;
+            border: none;
+            border-radius: 12px;
+            width: 100px;
+            color: #ffffff;
+            font-size: large;
+            cursor: pointer;
+        }
+
+        .clearAll {
+            background-color: #ed3d3d;
+
+        }
+
+        input {
+            width: 80%;
+            margin: 0 10px;
+            border-radius: 12px;
+            border: none;
+        }
+    }
+
+    .todoItemList {
+        background-color: lightgray;
+        margin: 10px auto;
+        padding: 6px;
+        border: none;
+        border-radius: 12px;
+        overflow: scroll;
+        max-height: 60vh;
+    }
+}
